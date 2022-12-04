@@ -1,0 +1,16 @@
+current directory: /Users/kimurayuta/Desktop/rails_workspace/genba_rails/task_management_app_2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/kimurayuta/.rbenv/versions/2.6.9/bin/ruby -I /Users/kimurayuta/.rbenv/versions/2.6.9/lib/ruby/site_ruby/2.6.0 -r ./siteconf20221204-78875-1qjtyp4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kimurayuta/Desktop/rails_workspace/genba_rails/task_management_app_2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /Users/kimurayuta/Desktop/rails_workspace/genba_rails/task_management_app_2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/kimurayuta/Desktop/rails_workspace/genba_rails/task_management_app_2/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20221204-78875-1wqmkwn
