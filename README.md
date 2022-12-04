@@ -1,24 +1,62 @@
-# README
+# 学習教材『現場で使えるRuby on Rails5 速習実践ガイド』
+基本的なtodoアプリを作成  
+ここから下はマークダウンの練習
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# h1　マークダウン記法の学習！
+## h2　学習教材「しまぶーのIT大学」さんの　『【完全保存版】マークダウン記法』
+### h3
 
-Things you may want to cover:
+改行（brタグ）するには  
+スペースを2個入れる
 
-* Ruby version
+段落（pタグ）はリターンキー２回で
 
-* System dependencies
+実現できる。
 
-* Configuration
+- リスト形式
+- リスト形式
+    - 入れ子
+    - 入れ子
+1. 連番形式
+1. 連番形式
+    1. 入れ子
+    1. 入れ子
+1. ミックス
+    - 入れ子
+    - 入れ子
+* アスタリスクでもリスト形式にできる
+    * 入れ子
+    * 入れ子
 
-* Database creation
+[yahoo](https://yahoo.co.jp)  
+[google](https://www.google.com/)
 
-* Database initialization
+> 引用
+>> 引用の引用
 
-* How to run the test suite
+これは`インラインのcode`です。
 
-* Services (job queues, cache servers, search engines, etc.)
+``` Ruby
+def greeting
+    puts "ブロックのcodeも書けるよ！"
+end
+```
 
-* Deployment instructions
+![ダミーの画像](https://placehold.jp/150x150.png)
 
-* ...
+*斜線*  
+**太字**  
+***斜体＋太字***  
+~~訂正線~~
+
+
+こっちは水平線の上  
+***
+こっちは水平線の下
+
+id|name|age|address|number
+--|----|---|-------|------
+1|yuta|28|岩手県八幡平市2-28-19|08066669999
+2|uno|32|岩手県八幡平市42地割|08066664444
+3|yuta|28|岩手県八幡平市2-28-19|08066669999
+4|uno|32|岩手県八幡平市42地割|08066664444
