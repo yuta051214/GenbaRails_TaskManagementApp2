@@ -1,0 +1,236 @@
+current directory: /Users/kimurayuta/Desktop/rails_workspace/genba_rails/task_management_app_2/vendor/bundle/ruby/2.6.0/gems/haml-6.0.12/ext/haml
+/Users/kimurayuta/.rbenv/versions/2.6.9/bin/ruby -I /Users/kimurayuta/.rbenv/versions/2.6.9/lib/ruby/site_ruby/2.6.0 -r ./siteconf20221204-5448-1g59q44.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kimurayuta/Desktop/rails_workspace/genba_rails/task_management_app_2/vendor/bundle/ruby/2.6.0/gems/haml-6.0.12/ext/haml
+make DESTDIR\= clean
+
+current directory: /Users/kimurayuta/Desktop/rails_workspace/genba_rails/task_management_app_2/vendor/bundle/ruby/2.6.0/gems/haml-6.0.12/ext/haml
+make DESTDIR\=
+compiling haml.c
+In file included from haml.c:1:
+In file included from /Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby.h:33:
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:2186:35: warning: unused parameter 'allow_transient' [-Wunused-parameter]
+rb_array_ptr_use_end(VALUE a, int allow_transient)
+                                  ^
+haml.c:61:10: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+  size = hesc_escape_html(&buf, RSTRING_PTR(str), RSTRING_LEN(str));
+       ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+haml.c:521:18: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_flatten   = rb_intern("flatten");
+                 ^~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+haml.c:521:18: note: '{' token is here
+  id_flatten   = rb_intern("flatten");
+                 ^~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1811:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+haml.c:521:18: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_flatten   = rb_intern("flatten");
+                 ^~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1816:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+haml.c:521:18: note: ')' token is here
+  id_flatten   = rb_intern("flatten");
+                 ^~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+haml.c:522:18: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_keys      = rb_intern("keys");
+                 ^~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+haml.c:522:18: note: '{' token is here
+  id_keys      = rb_intern("keys");
+                 ^~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1811:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+haml.c:522:18: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_keys      = rb_intern("keys");
+                 ^~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1816:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+haml.c:522:18: note: ')' token is here
+  id_keys      = rb_intern("keys");
+                 ^~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+haml.c:523:18: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_parse     = rb_intern("parse");
+                 ^~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+haml.c:523:18: note: '{' token is here
+  id_parse     = rb_intern("parse");
+                 ^~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1811:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+haml.c:523:18: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_parse     = rb_intern("parse");
+                 ^~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1816:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+haml.c:523:18: note: ')' token is here
+  id_parse     = rb_intern("parse");
+                 ^~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+haml.c:524:18: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_prepend   = rb_intern("prepend");
+                 ^~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+haml.c:524:18: note: '{' token is here
+  id_prepend   = rb_intern("prepend");
+                 ^~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1811:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+haml.c:524:18: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_prepend   = rb_intern("prepend");
+                 ^~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1816:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+haml.c:524:18: note: ')' token is here
+  id_prepend   = rb_intern("prepend");
+                 ^~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+haml.c:525:18: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_tr        = rb_intern("tr");
+                 ^~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+haml.c:525:18: note: '{' token is here
+  id_tr        = rb_intern("tr");
+                 ^~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1811:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+haml.c:525:18: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_tr        = rb_intern("tr");
+                 ^~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1816:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+haml.c:525:18: note: ')' token is here
+  id_tr        = rb_intern("tr");
+                 ^~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+haml.c:526:18: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_uniq_bang = rb_intern("uniq!");
+                 ^~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+haml.c:526:18: note: '{' token is here
+  id_uniq_bang = rb_intern("uniq!");
+                 ^~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1811:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+haml.c:526:18: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_uniq_bang = rb_intern("uniq!");
+                 ^~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1816:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+haml.c:526:18: note: ')' token is here
+  id_uniq_bang = rb_intern("uniq!");
+                 ^~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+haml.c:527:18: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_xhtml     = rb_intern("xhtml");
+                 ^~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+haml.c:527:18: note: '{' token is here
+  id_xhtml     = rb_intern("xhtml");
+                 ^~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1811:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+haml.c:527:18: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  id_xhtml     = rb_intern("xhtml");
+                 ^~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1816:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+haml.c:527:18: note: ')' token is here
+  id_xhtml     = rb_intern("xhtml");
+                 ^~~~~~~~~~~~~~~~~~
+/Users/kimurayuta/.rbenv/versions/2.6.9/include/ruby-2.6.0/ruby/ruby.h:1826:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+16 warnings generated.
+compiling hescape.c
+linking shared-object haml/haml.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/kimurayuta/Desktop/rails_workspace/genba_rails/task_management_app_2/vendor/bundle/ruby/2.6.0/gems/haml-6.0.12/ext/haml
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 haml.bundle ./.gem.20221204-5448-fo5zwx/haml
