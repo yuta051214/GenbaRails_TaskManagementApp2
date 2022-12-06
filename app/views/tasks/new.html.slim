@@ -1,0 +1,7 @@
+h1 タスクの新規登録
+
+.nav.justify-content-end 
+  = link_to '一覧', tasks_path, class: 'nav-link'
+
+/ partialを利用する(localsは「インスタンス変数@taskをパーシャル内のローカル変数taskとして渡す」の意味)
+= render partial: 'form', locals: {task: @task}
