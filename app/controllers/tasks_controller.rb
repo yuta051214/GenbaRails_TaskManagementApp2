@@ -20,6 +20,12 @@ class TasksController < ApplicationController
     # ログイン中のユーザーに紐づいたタスクを作る(current_userはapplication_controllerにある)
     @task = current_user.tasks.new(task_params)
 
+    # 確認画面で'戻る'が押されたとき
+    if params[:back].present?
+      render :new
+      return
+    end
+
     if @task.save
       redirect_to tasks_path, notice: "タスク「#{@task.name}」を登録しました。"
     else
@@ -38,6 +44,12 @@ class TasksController < ApplicationController
   def destroy
     @task.destroy!
     redirect_to tasks_url, notice: "タスク「#{@task.name}」を削除しました。"
+  end
+
+  # 確認画面
+  def confirm_new
+    @task = current_user.tasks.new(task_params)
+    render :new unless @task.valid?
   end
 
   private
