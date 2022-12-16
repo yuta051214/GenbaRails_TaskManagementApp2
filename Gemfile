@@ -75,3 +75,5 @@ gem 'slim-rails'
 gem 'bootstrap'
 # taskのdescriptionに含まれるURLをリンクとして表示するGem
 gem 'rails_autolink'
+# 検索機能
+gem 'ransack'

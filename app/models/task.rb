@@ -1,4 +1,13 @@
 class Task < ApplicationRecord
+	# Ransackの検索条件を絞る(セキュリティ対策)
+	def self.ransackable_attributes(auth_object = nil)
+		%w[name created_at]
+	end
+
+	def self.ransackable_associations(auth_object = nil)
+		[]
+	end
+
 	# # コールバック
 	# before_validation :set_nameless_name
 
