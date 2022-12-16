@@ -59,7 +59,7 @@ class TasksController < ApplicationController
 
   # strong parameters(create, updateで利用する)
   def task_params
-    params.require(:task).permit(:name, :description)
+    params.require(:task).permit(:name, :description, :image)
   end
 
   # フィルターを使って重複を避ける(Dont Repeat Yourself)

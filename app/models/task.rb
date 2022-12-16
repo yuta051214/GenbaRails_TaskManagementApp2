@@ -1,4 +1,7 @@
 class Task < ApplicationRecord
+	# タスクに画像ファイルを添付する
+	has_one_attached :image
+
 	# Ransackの検索条件を絞る(セキュリティ対策)
 	def self.ransackable_attributes(auth_object = nil)
 		%w[name created_at]
