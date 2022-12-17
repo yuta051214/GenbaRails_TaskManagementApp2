@@ -37,7 +37,11 @@ class TasksController < ApplicationController
     end
 
     if @task.save
+      # メール
       TaskMailer.creation_email(@task).deliver_now
+      # 非同期処理
+      SampleJob.perform_later
+
       redirect_to tasks_path, notice: "タスク「#{@task.name}」を登録しました。"
     else
       render :new
