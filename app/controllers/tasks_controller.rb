@@ -5,8 +5,10 @@ class TasksController < ApplicationController
   def index
     # @tasks = Task.all  リレーション適用前
     # @tasks = current_user.tasks.recent  Ransack適用前
+    # Ransakによる検索機能(:q の値が空だった場合は全件取得と同じ挙動をする)
     @q = current_user.tasks.ransack(params[:q])
-    @tasks = @q.result(distinct: true)
+    # kaminariによるページネーション("/tasks?page=2"のような形式ではなく、"/tasks"だけの場合はpage=1の場合と同じ挙動)
+    @tasks = @q.result(distinct: true).page(params[:page])
 
     # CSVの出力
     respond_to do |format|
