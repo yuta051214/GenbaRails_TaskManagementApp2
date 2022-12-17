@@ -32,3 +32,9 @@ table.table.table-hover
 				td= link_to '削除', task, method: :delete, data: {confirm: "タスク「#{task.name}」を削除します。よろしいですか？"}, class: 'btn btn-danger'
 				/ 削除は、methodをdeleteに指定しているからURLヘルパーを渡さなくてもルーティングできる。
 				/ 対して編集は、link_toのデフォがGETであるため、URLヘルパーでeditであることを明示しないとshowアクションにルーティングされてしまう。
+/ CSVの出力
+= link_to 'エクスポート', tasks_path(format: :csv), class: 'btn btn-primary me-3'
+/ CSVの入力
+= form_tag import_tasks_path, multipart: true, class: 'me-3 mt-4' do 
+	= file_field_tag :file
+	=submit_tag "インポート", class: 'btn btn-primary'
