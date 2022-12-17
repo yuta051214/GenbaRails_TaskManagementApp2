@@ -16,11 +16,14 @@ table.table.tavle-hover
 			td= auto_link(simple_format(h(@task.description), {}, sanitize: false, wrapper_tag: 'div'))
 			/ simple_formatで改行コードを<br>タグに変換し、sanitizeやhでHTMLエスケープを行う。aouto_linkでURLをリンク化。
 		tr 
+			th= Task.human_attribute_name(:image)
+			td= image_tag @task.image, size: "427x240" if @task.image.attached?
+		tr 
 			th= Task.human_attribute_name(:created_at)
 			td= @task.created_at
 		tr 
 			th= Task.human_attribute_name(:updated_at)
 			td= @task.updated_at
 
-= link_to '編集', edit_task_path(@task), class: 'btn btn-primary mr-3'
+= link_to '編集', edit_task_path(@task), class: 'btn btn-primary me-3'
 = link_to '削除', @task, method: :delete, data: {confirm: "タスク「#{@task.name}」を削除します。よろしいですか？"}, class: 'btn btn-danger'

@@ -75,3 +75,9 @@ gem 'slim-rails'
 gem 'bootstrap'
 # taskのdescriptionに含まれるURLをリンクとして表示するGem
 gem 'rails_autolink'
+# 検索機能
+gem 'ransack'
+# ページネーション
+gem 'kaminari'
+# 非同期処理・定期実行
+gem 'sidekiq'
