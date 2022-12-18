@@ -57,9 +57,11 @@ class TasksController < ApplicationController
   end
 
   def destroy
-    @task.destroy!
-    redirect_to tasks_url, notice: "タスク「#{@task.name}」を削除しました。"
+    @task.destroy
+    # レスポンスのボディはなしで、HTTPステータスとして204が返る
+    # head :no_content
   end
+
 
   # 確認画面
   def confirm_new
